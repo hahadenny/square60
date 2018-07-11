@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-	<div class="wrapper wrapper-bg" style="min-height:835px;">112233
+	<div class="wrapper wrapper-bg" style="min-height:835px;">11223344
 		<div class="content" style="flex:none;">
 			<div class="header test-border header-bg" style="border-bottom: solid 1px #282828;">
 				<div class="promo" style="padding-bottom:0px;">
