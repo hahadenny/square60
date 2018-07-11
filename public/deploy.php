@@ -49,7 +49,7 @@ foreach ($allowed_ips as $allow) {
 
 if (!$allowed) {
 	header('HTTP/1.1 403 Forbidden');
- 	echo "<span style=\"color: #ff0000\">Sorry, no hamster - better convince your parents!</span>\n";
+ 	echo "<span style=\"color: #ff0000\">Sorry, no hamster - better convince your parents! $ip</span>\n";
     echo "</pre>\n</body>\n</html>";
     exit;
 }
