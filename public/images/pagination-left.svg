@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="10px" viewBox="0 0 14 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pagination" transform="translate(-15.000000, -18.000000)" fill="#1D7293" fill-rule="nonzero">
+            <g id="Group-2">
+                <g>
+                    <path d="M28.8093199,22.5222088 L24.643157,18.1978786 C24.388969,17.9340405 23.9767271,17.9340405 23.7225391,18.1978786 C23.468299,18.4617709 23.468299,18.8895553 23.7225391,19.1534475 L26.7774302,22.3243167 L15.650963,22.3243167 C15.2914752,22.3243167 15,22.6268576 15,22.9999932 C15,23.3730748 15.2914752,23.6756698 15.650963,23.6756698 L26.7774302,23.6756698 L23.7226433,26.846539 C23.4684032,27.1104312 23.4684032,27.5382156 23.7226433,27.8021078 C23.8497113,27.9339459 24.0163578,28 24.1829522,28 C24.3495467,28 24.5161411,27.9339459 24.6432611,27.8021078 L28.8093199,23.4777777 C29.06356,23.2138854 29.06356,22.7861011 28.8093199,22.5222088 Z" id="Shape-Copy" transform="translate(22.000000, 23.000000) scale(-1, 1) translate(-22.000000, -23.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

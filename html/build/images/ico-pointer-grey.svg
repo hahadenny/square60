@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="12px" viewBox="0 0 9 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Catalog-Card" transform="translate(-303.000000, -46.000000)" fill="#B4B4B4" fill-rule="nonzero">
+            <path d="M307.5,46 C305.018687,46 303,47.9495805 303,50.3459272 C303,53.3198683 307.027059,57.6857877 307.198515,57.8701942 C307.359559,58.0434209 307.640732,58.0431162 307.801485,57.8701942 C307.972941,57.6857877 312,53.3198683 312,50.3459272 C311.999951,47.9495805 309.981289,46 307.5,46 Z M307.5,52.5324845 C306.25159,52.5324845 305.235961,51.5516005 305.235961,50.3459272 C305.235961,49.1402538 306.251614,48.1593933 307.5,48.1593933 C308.748386,48.1593933 309.764015,49.1402773 309.764015,50.3459506 C309.764015,51.551624 308.748386,52.5324845 307.5,52.5324845 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

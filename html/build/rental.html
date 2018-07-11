@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Square60</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li>
+                <a href="#">Sign in</a>
+            </li>
+            <li>
+                <a href="#">Sign up</a>
+            </li>
+            <li>
+                <a href="#">Submit Listing</a>
+            </li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <div class="content">
+            <div class="header">
+                <div class="container">
+                    <div class="logo">
+                        <a href="/index.html">
+                            <img src="images/white-logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header-nav">
+                        <ul>
+                            <li>
+                                <a href="#">Sign in</a>
+                            </li>
+                            <li>
+                                <a href="#">Sign up</a>
+                            </li>
+                            <li>
+                                <a href="#">Submit Listing</a>
+                            </li>
+                        </ul>
+                        <div class="mobile-btn">
+                            <div class="open">
+                                <span class="hamb">
+                                    <img src="images/ico-hamb.svg" alt="">
+                                </span>
+                                <span class="text">menu</span>
+                            </div>
+                            <div class="close">
+                                <img src="images/ico-hamb-close.svg" alt="">
+                                </span>
+                                <span class="text">close</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="filter-page">
+                    <form action="#">
+                        <ul class="filter-nav">
+                            <li>
+                                <span>Rentals</span>
+                            </li>
+                            <li>
+                                <a href="/sales.html">Sales</a>
+                            </li>
+                        </ul>
+                        <div class="tabs">
+                            <ul class="tabs-header">
+                                <li>
+                                    <span data-tab="tab1" class="active">Manhattan</span>
+                                </li>
+                                <li>
+                                    <span data-tab="tab2">Brooklyn</span>
+                                </li>
+                                <li>
+                                    <span data-tab="tab3">Queens</span>
+                                </li>
+                                <li>
+                                    <span data-tab="tab4">Bronx</span>
+                                </li>
+                                <li>
+                                    <span data-tab="tab5">Staten Island</span>
+                                </li>
+                            </ul>
+                            <div class="tabs-body">
+                                <div class="tabs-body-wr">
+                                    <div class="tab active" id="tab1">
+                                        <div class="tab-ttl">Manhattan</div>
+                                        <ul class="col col-full-width">
+                                            <li>
+                                                <!-- !!! warning !!!-->
+                                                <!-- for each checkbox  id === for -->
+                                                <!-- !!! -->
+                                                <input type="checkbox" class="checkbox" id='checkbox1'>
+                                                <label for="checkbox1">All Manhattan</label>
+                                                <ul class="row">
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbox2'>
+                                                                <label for="checkbox2">All Downtown</label>
+                                                                <div class="mobile-ttl">All Downtown</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox3'>
+                                                                        <label for="checkbox3">Battery Park City</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4'>
+                                                                        <label for="checkbox4">Chelsea</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox5'>
+                                                                        <label for="checkbox5">Chinatown</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox6'>
+                                                                        <label for="checkbox6">Civic Center</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox7'>
+                                                                        <label for="checkbox7">East Village</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox8'>
+                                                                        <label for="checkbox8">Financial District </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox9'>
+                                                                        <label for="checkbox9">Flatiron </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox10'>
+                                                                        <label for="checkbox10">Gramercy Park</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox11'>
+                                                                        <label for="checkbox11">Greenwich Village </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox12'>
+                                                                        <label for="checkbox12">Little Italy</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox13'>
+                                                                        <label for="checkbox13">Lower East Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox14'>
+                                                                        <label for="checkbox14">Nolita</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox15'>
+                                                                        <label for="checkbox15">Soho </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox16'>
+                                                                        <label for="checkbox16">Stuyvesant Town/PCV</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox17'>
+                                                                        <label for="checkbox17">Tribeca</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox18'>
+                                                                        <label for="checkbox18">West Village</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox  no-mobile" id='checkbox21'>
+                                                                <label for="checkbox21">All Midtown</label>
+                                                                <div class="mobile-ttl">All Midtown</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox22'>
+                                                                        <label for="checkbox22">Central Park South</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox23'>
+                                                                        <label for="checkbox23">Midtown</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox24'>
+                                                                        <label for="checkbox24">Hell’s Kitchen</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox25'>
+                                                                        <label for="checkbox25">Hudson Yard</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox26'>
+                                                                        <label for="checkbox26">Midtown East</label>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox261'>
+                                                                                <label for="checkbox261">Kips Bay</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox262'>
+                                                                                <label for="checkbox262">Murray Hill</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox263'>
+                                                                                <label for="checkbox263">Sutton Place</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox264'>
+                                                                                <label for="checkbox264">Turtle Bay</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox265'>
+                                                                                <label for="checkbox265">Beekman</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox27'>
+                                                                        <label for="checkbox27">Midtown South</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox28'>
+                                                                        <label for="checkbox28">Midtown West</label>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox281'>
+                                                                                <label for="checkbox281">Hell's Kitchen</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox282'>
+                                                                                <label for="checkbox282">Hudson Yards</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox29'>
+                                                                        <label for="checkbox29">Roosevelt Island</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+
+                                                    </li>
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbox31'>
+                                                                <label for="checkbox31">All Upper West Side</label>
+                                                                <div class="mobile-ttl">All Upper West Side</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox311'>
+                                                                        <label for="checkbox311">Upper West Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox312'>
+                                                                        <label for="checkbox312">Lincoln Square</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox313'>
+                                                                        <label for="checkbox313">Manhattan Valley</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbox32'>
+                                                                <label for="checkbox32">All Upper East Side</label>
+                                                                <div class="mobile-ttl">All Upper East Side</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox321'>
+                                                                        <label for="checkbox321">Upper East Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox322'>
+                                                                        <label for="checkbox322">Carnegie Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox323'>
+                                                                        <label for="checkbox323">Lenox Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox324'>
+                                                                        <label for="checkbox324">Yorkville</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbox33'>
+                                                                <label for="checkbox33">All Upper Manhattan</label>
+                                                                <div class="mobile-ttl">All Upper Manhattan</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox331'>
+                                                                        <label for="checkbox331">Central Harlem</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox332'>
+                                                                        <label for="checkbox332">East Harlem</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox333'>
+                                                                        <label for="checkbox333">Hamilton Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox334'>
+                                                                        <label for="checkbox334">Inwood</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox335'>
+                                                                        <label for="checkbox335">Manhattanville</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox336'>
+                                                                        <label for="checkbox336">Marble Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox337'>
+                                                                        <label for="checkbox337">Morningside Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox338'>
+                                                                        <label for="checkbox338">Washington Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox339'>
+                                                                        <label for="checkbox339">Fort George</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+
+                                    <!-- tab2 -->
+                                    <div class="tab" id="tab2">
+                                        <div class="tab-ttl">Brooklyn</div>
+                                        <ul class="col col-full-width">
+                                            <li>
+                                                <!-- !!! warning !!!-->
+                                                <!-- for each checkbox  id === for -->
+                                                <!-- !!! -->
+                                                <input type="checkbox" class="checkbox" id='checkb21'>
+                                                <label for="checkb21">All Manhattan</label>
+                                                <ul class="row">
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkb22'>
+                                                                <label for="checkb22">All Downtown</label>
+                                                                <div class="mobile-ttl">All Downtown</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb23'>
+                                                                        <label for="checkb23">Battery Park City</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb224'>
+                                                                        <label for="checkb244">Chelsea</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb225'>
+                                                                        <label for="checkb255">Chinatown</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb226'>
+                                                                        <label for="checkb266">Civic Center</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb227'>
+                                                                        <label for="checkb277">East Village</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox28'>
+                                                                        <label for="checkbox288">Financial District </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox299'>
+                                                                        <label for="checkbox299">Flatiron </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb210'>
+                                                                        <label for="checkb210">Gramercy Park</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb211'>
+                                                                        <label for="checkb211">Greenwich Village </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb212'>
+                                                                        <label for="checkb212">Little Italy</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb213'>
+                                                                        <label for="checkb213">Lower East Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb214'>
+                                                                        <label for="checkb214">Nolita</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb215'>
+                                                                        <label for="checkb215">Soho </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb216'>
+                                                                        <label for="checkb216">Stuyvesant Town/PCV</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb217'>
+                                                                        <label for="checkb217">Tribeca</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb218'>
+                                                                        <label for="checkb218">West Village</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox  no-mobile" id='checkb221'>
+                                                                <label for="checkb221">All Midtown</label>
+                                                                <div class="mobile-ttl">All Midtown</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb222'>
+                                                                        <label for="checkb222">Central Park South</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb223'>
+                                                                        <label for="checkb223">Midtown</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb224'>
+                                                                        <label for="checkb224">Hell’s Kitchen</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb225'>
+                                                                        <label for="checkb225">Hudson Yard</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb226'>
+                                                                        <label for="checkb226">Midtown East</label>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkb2261'>
+                                                                                <label for="checkb2261">Kips Bay</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkb2262'>
+                                                                                <label for="checkb2262">Murray Hill</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkb2263'>
+                                                                                <label for="checkb2263">Sutton Place</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkb2264'>
+                                                                                <label for="checkb2264">Turtle Bay</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkb2265'>
+                                                                                <label for="checkb2265">Beekman</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb227'>
+                                                                        <label for="checkb227">Midtown South</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb228'>
+                                                                        <label for="checkb228">Midtown West</label>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkb2281'>
+                                                                                <label for="checkb2281">Hell's Kitchen</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkb2282'>
+                                                                                <label for="checkb2282">Hudson Yards</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb229'>
+                                                                        <label for="checkb229">Roosevelt Island</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+
+                                                    </li>
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkb31'>
+                                                                <label for="checkb31">All Upper West Side</label>
+                                                                <div class="mobile-ttl">All Upper West Side</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2311'>
+                                                                        <label for="checkb2311">Upper West Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2312'>
+                                                                        <label for="checkb2312">Lincoln Square</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2313'>
+                                                                        <label for="checkb2313">Manhattan Valley</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkb232'>
+                                                                <label for="checkb232">All Upper East Side</label>
+                                                                <div class="mobile-ttl">All Upper East Side</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2321'>
+                                                                        <label for="checkb2321">Upper East Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2322'>
+                                                                        <label for="checkb2322">Carnegie Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2323'>
+                                                                        <label for="checkb2323">Lenox Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2324'>
+                                                                        <label for="checkb2324">Yorkville</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkb233'>
+                                                                <label for="checkb233">All Upper Manhattan</label>
+                                                                <div class="mobile-ttl">All Upper Manhattan</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2331'>
+                                                                        <label for="checkb2331">Central Harlem</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2332'>
+                                                                        <label for="checkb2332">East Harlem</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2333'>
+                                                                        <label for="checkb2333">Hamilton Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2334'>
+                                                                        <label for="checkb2334">Inwood</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2335'>
+                                                                        <label for="checkb2335">Manhattanville</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb22336'>
+                                                                        <label for="checkb2336">Marble Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2337'>
+                                                                        <label for="checkb2337">Morningside Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2338'>
+                                                                        <label for="checkb2338">Washington Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkb2339'>
+                                                                        <label for="checkb2339">Fort George</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <!-- tab3 -->
+                                    <div class="tab" id="tab3">
+                                        <div class="tab-ttl">Queens</div>
+                                        <ul class="col col-full-width">
+                                            <li>
+                                                <!-- !!! warning !!!-->
+                                                <!-- for each checkbox  id === for -->
+                                                <!-- !!! -->
+                                                <input type="checkbox" class="checkbox" id='checkbox1'>
+                                                <label for="checkbox1">All Manhattan</label>
+                                                <ul class="row">
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='check32'>
+                                                                <label for="check32">All Downtown</label>
+                                                                <div class="mobile-ttl">All Downtown</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check33'>
+                                                                        <label for="check33">Battery Park City</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check34'>
+                                                                        <label for="check34">Chelsea</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check35'>
+                                                                        <label for="check35">Chinatown</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3'>
+                                                                        <label for="check36">Civic Center</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check37'>
+                                                                        <label for="check37">East Village</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check38'>
+                                                                        <label for="check38">Financial District </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check39'>
+                                                                        <label for="check39">Flatiron </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check310'>
+                                                                        <label for="check310">Gramercy Park</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check311'>
+                                                                        <label for="check311">Greenwich Village </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check312'>
+                                                                        <label for="check312">Little Italy</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check313'>
+                                                                        <label for="check313">Lower East Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check314'>
+                                                                        <label for="check314">Nolita</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check315'>
+                                                                        <label for="check315">Soho </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check316'>
+                                                                        <label for="check316">Stuyvesant Town/PCV</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check317'>
+                                                                        <label for="check317">Tribeca</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check318'>
+                                                                        <label for="check318">West Village</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox  no-mobile" id='check321'>
+                                                                <label for="check321">All Midtown</label>
+                                                                <div class="mobile-ttl">All Midtown</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check322'>
+                                                                        <label for="check322">Central Park South</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check323'>
+                                                                        <label for="check323">Midtown</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check324'>
+                                                                        <label for="check324">Hell’s Kitchen</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check325'>
+                                                                        <label for="check325">Hudson Yard</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check326'>
+                                                                        <label for="check326">Midtown East</label>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='check3261'>
+                                                                                <label for="check3261">Kips Bay</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='check3262'>
+                                                                                <label for="check3262">Murray Hill</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='check3263'>
+                                                                                <label for="check3263">Sutton Place</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='check3264'>
+                                                                                <label for="check3264">Turtle Bay</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='check3265'>
+                                                                                <label for="check3265">Beekman</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check327'>
+                                                                        <label for="check327">Midtown South</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check328'>
+                                                                        <label for="check328">Midtown West</label>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='check3281'>
+                                                                                <label for="check3281">Hell's Kitchen</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='check3282'>
+                                                                                <label for="check3282">Hudson Yards</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check329'>
+                                                                        <label for="check329">Roosevelt Island</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+
+                                                    </li>
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='check331'>
+                                                                <label for="check331">All Upper West Side</label>
+                                                                <div class="mobile-ttl">All Upper West Side</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3311'>
+                                                                        <label for="check3311">Upper West Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3312'>
+                                                                        <label for="check3312">Lincoln Square</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3313'>
+                                                                        <label for="check3313">Manhattan Valley</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='check332'>
+                                                                <label for="check332">All Upper East Side</label>
+                                                                <div class="mobile-ttl">All Upper East Side</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3321'>
+                                                                        <label for="check3321">Upper East Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3322'>
+                                                                        <label for="check3322">Carnegie Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3323'>
+                                                                        <label for="check3323">Lenox Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3324'>
+                                                                        <label for="check3324">Yorkville</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='check333'>
+                                                                <label for="check33">All Upper Manhattan</label>
+                                                                <div class="mobile-ttl">All Upper Manhattan</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3331'>
+                                                                        <label for="check3331">Central Harlem</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='chec3332'>
+                                                                        <label for="check3332">East Harlem</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3333'>
+                                                                        <label for="check3333">Hamilton Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3334'>
+                                                                        <label for="check3334">Inwood</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3335'>
+                                                                        <label for="check3335">Manhattanville</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3336'>
+                                                                        <label for="check3336">Marble Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3337'>
+                                                                        <label for="check3337">Morningside Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3338'>
+                                                                        <label for="check3338">Washington Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='check3339'>
+                                                                        <label for="check3339">Fort George</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+
+                                    <!-- tab4 -->
+                                    <div class="tab" id="tab4">
+                                        <div class="tab-ttl">Bronx</div>
+                                        <ul class="col col-full-width">
+                                            <li>
+                                                <!-- !!! warning !!!-->
+                                                <!-- for each checkbox  id === for -->
+                                                <!-- !!! -->
+                                                <input type="checkbox" class="checkbox" id='checkbox41'>
+                                                <label for="checkbox41">All Manhattan</label>
+                                                <ul class="row">
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbox42'>
+                                                                <label for="checkbox42">All Downtown</label>
+                                                                <div class="mobile-ttl">All Downtown</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox43'>
+                                                                        <label for="checkbox43">Battery Park City</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox44'>
+                                                                        <label for="checkbox44">Chelsea</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox45'>
+                                                                        <label for="checkbox45">Chinatown</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox46'>
+                                                                        <label for="checkbox46">Civic Center</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox47'>
+                                                                        <label for="checkbox47">East Village</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox84'>
+                                                                        <label for="checkbox84">Financial District </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox94'>
+                                                                        <label for="checkbox94">Flatiron </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox410'>
+                                                                        <label for="checkbox410">Gramercy Park</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4114'>
+                                                                        <label for="checkbox4114">Greenwich Village </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4412'>
+                                                                        <label for="checkbox4412">Little Italy</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox413'>
+                                                                        <label for="checkbox413">Lower East Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox414'>
+                                                                        <label for="checkbox414">Nolita</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox415'>
+                                                                        <label for="checkbox415">Soho </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox416'>
+                                                                        <label for="checkbox416">Stuyvesant Town/PCV</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox417'>
+                                                                        <label for="checkbox417">Tribeca</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox418'>
+                                                                        <label for="checkbox418">West Village</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox  no-mobile" id='checkbox421'>
+                                                                <label for="checkbox421">All Midtown</label>
+                                                                <div class="mobile-ttl">All Midtown</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox422'>
+                                                                        <label for="checkbox422">Central Park South</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox423'>
+                                                                        <label for="checkbox423">Midtown</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox424'>
+                                                                        <label for="checkbox424">Hell’s Kitchen</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox425'>
+                                                                        <label for="checkbox425">Hudson Yard</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox426'>
+                                                                        <label for="checkbox426">Midtown East</label>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox4261'>
+                                                                                <label for="checkbox4261">Kips Bay</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox4262'>
+                                                                                <label for="checkbox4262">Murray Hill</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox4263'>
+                                                                                <label for="checkbox4263">Sutton Place</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox4264'>
+                                                                                <label for="checkbox4264">Turtle Bay</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox4265'>
+                                                                                <label for="checkbox4265">Beekman</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox427'>
+                                                                        <label for="checkbox427">Midtown South</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox428'>
+                                                                        <label for="checkbox428">Midtown West</label>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox4281'>
+                                                                                <label for="checkbox4281">Hell's Kitchen</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbox4282'>
+                                                                                <label for="checkbox4282">Hudson Yards</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox249'>
+                                                                        <label for="checkbox429">Roosevelt Island</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+
+                                                    </li>
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbox431'>
+                                                                <label for="checkbox431">All Upper West Side</label>
+                                                                <div class="mobile-ttl">All Upper West Side</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4311'>
+                                                                        <label for="checkbox4311">Upper West Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4312'>
+                                                                        <label for="checkbox4312">Lincoln Square</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4313'>
+                                                                        <label for="checkbox4313">Manhattan Valley</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbox432'>
+                                                                <label for="checkbox432">All Upper East Side</label>
+                                                                <div class="mobile-ttl">All Upper East Side</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4321'>
+                                                                        <label for="checkbox4321">Upper East Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4322'>
+                                                                        <label for="checkbox4322">Carnegie Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4323'>
+                                                                        <label for="checkbox4323">Lenox Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4324'>
+                                                                        <label for="checkbox4324">Yorkville</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbox433'>
+                                                                <label for="checkbox433">All Upper Manhattan</label>
+                                                                <div class="mobile-ttl">All Upper Manhattan</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4331'>
+                                                                        <label for="checkbox4331">Central Harlem</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4332'>
+                                                                        <label for="checkbox4332">East Harlem</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4333'>
+                                                                        <label for="checkbox4333">Hamilton Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4334'>
+                                                                        <label for="checkbox4334">Inwood</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4335'>
+                                                                        <label for="checkbox4335">Manhattanville</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4336'>
+                                                                        <label for="checkbox4336">Marble Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4337'>
+                                                                        <label for="checkbox4337">Morningside Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4338'>
+                                                                        <label for="checkbox4338">Washington Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbox4339'>
+                                                                        <label for="checkbox4339">Fort George</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+
+                                    <!-- tab5 -->
+                                    <div class="tab" id="tab5">
+                                        <div class="tab-ttl">Staten Island</div>
+                                        <ul class="col col-full-width">
+                                            <li>
+                                                <!-- !!! warning !!!-->
+                                                <!-- for each checkbox  id === for -->
+                                                <!-- !!! -->
+                                                <input type="checkbox" class="checkbox" id='checkbo1'>
+                                                <label for="checkbo1">All Manhattan</label>
+                                                <ul class="row">
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbo2'>
+                                                                <label for="checkbo2">All Downtown</label>
+                                                                <div class="mobile-ttl">All Downtown</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo3'>
+                                                                        <label for="checkbo3">Battery Park City</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo4'>
+                                                                        <label for="checkbo4">Chelsea</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo5'>
+                                                                        <label for="checkbo5">Chinatown</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo6'>
+                                                                        <label for="checkbo6">Civic Center</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo7'>
+                                                                        <label for="checkbo7">East Village</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo8'>
+                                                                        <label for="checkbo8">Financial District </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo9'>
+                                                                        <label for="checkbo9">Flatiron </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo10'>
+                                                                        <label for="checkbo10">Gramercy Park</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo11'>
+                                                                        <label for="checkbo11">Greenwich Village </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo12'>
+                                                                        <label for="checkbo12">Little Italy</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo13'>
+                                                                        <label for="checkbo13">Lower East Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo14'>
+                                                                        <label for="checkbo14">Nolita</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo15'>
+                                                                        <label for="checkbo15">Soho </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo16'>
+                                                                        <label for="checkbo16">Stuyvesant Town/PCV</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo17'>
+                                                                        <label for="checkbo17">Tribeca</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo18'>
+                                                                        <label for="checkbo18">West Village</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox  no-mobile" id='checkbo21'>
+                                                                <label for="checkbo21">All Midtown</label>
+                                                                <div class="mobile-ttl">All Midtown</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo22'>
+                                                                        <label for="checkbo22">Central Park South</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo23'>
+                                                                        <label for="checkbo23">Midtown</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo24'>
+                                                                        <label for="checkbo24">Hell’s Kitchen</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo25'>
+                                                                        <label for="checkbo25">Hudson Yard</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo26'>
+                                                                        <label for="checkbo26">Midtown East</label>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbo261'>
+                                                                                <label for="checkbo261">Kips Bay</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbo262'>
+                                                                                <label for="checkbo262">Murray Hill</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbo263'>
+                                                                                <label for="checkbo263">Sutton Place</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbo264'>
+                                                                                <label for="checkbo264">Turtle Bay</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbo265'>
+                                                                                <label for="checkbo265">Beekman</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo27'>
+                                                                        <label for="checkbo27">Midtown South</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo28'>
+                                                                        <label for="checkbo28">Midtown West</label>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbo281'>
+                                                                                <label for="checkbo281">Hell's Kitchen</label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <input type="checkbox" class="checkbox" id='checkbo282'>
+                                                                                <label for="checkbo282">Hudson Yards</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo29'>
+                                                                        <label for="checkbo29">Roosevelt Island</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+
+                                                    </li>
+                                                    <li class="col">
+                                                        <!-- !!! warning -->
+                                                        <!-- it is hidden checkbox for js script  -->
+                                                        <!-- !!! don't remove -->
+                                                        <!--  -->
+                                                        <input type="checkbox" class="checkbox hidden">
+                                                        <ul>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbo31'>
+                                                                <label for="checkbo31">All Upper West Side</label>
+                                                                <div class="mobile-ttl">All Upper West Side</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo311'>
+                                                                        <label for="checkbo311">Upper West Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo312'>
+                                                                        <label for="checkbo312">Lincoln Square</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo313'>
+                                                                        <label for="checkbo313">Manhattan Valley</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbo32'>
+                                                                <label for="checkbo32">All Upper East Side</label>
+                                                                <div class="mobile-ttl">All Upper East Side</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo321'>
+                                                                        <label for="checkbo321">Upper East Side</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo322'>
+                                                                        <label for="checkbo322">Carnegie Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo323'>
+                                                                        <label for="checkbo323">Lenox Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo324'>
+                                                                        <label for="checkbo324">Yorkville</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="checkbox no-mobile" id='checkbo33'>
+                                                                <label for="checkbo33">All Upper Manhattan</label>
+                                                                <div class="mobile-ttl">All Upper Manhattan</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo331'>
+                                                                        <label for="checkbo331">Central Harlem</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo332'>
+                                                                        <label for="checkbo332">East Harlem</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo333'>
+                                                                        <label for="checkbo333">Hamilton Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo334'>
+                                                                        <label for="checkbo334">Inwood</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo335'>
+                                                                        <label for="checkbo335">Manhattanville</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo336'>
+                                                                        <label for="checkbo336">Marble Hill</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo337'>
+                                                                        <label for="checkbo337">Morningside Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo338'>
+                                                                        <label for="checkbo338">Washington Heights</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="checkbox" class="checkbox" id='checkbo339'>
+                                                                        <label for="checkbo339">Fort George</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <div class="filter-box">
+                                    <div class="filter-box-content">
+                                        <div class="line-wr">
+                                            <div class="filter-item line">
+                                                <div class="ttl">Bed:</div>
+                                                <select class="custom from">
+                                                    <option value="0">0</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                </select>
+                                                <span class="to-delimiter">to</span>
+                                                <select class="custom to">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                </select>
+                                            </div>
+                                            <div class="filter-item line">
+                                                <div class="ttl">Bath:</div>
+                                                <select class="custom from">
+                                                    <option value="0">0</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                </select>
+                                                <span class="to-delimiter">to</span>
+                                                <select class="custom to">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="filter-item line">
+                                                <div class="ttl">Price:</div>
+                                                <input type="text" class="custom-input" value="$200 000 ">
+                                                <span class="to-delimiter">to</span>
+                                                <input type="text" class="custom-input" value="$300 000 ">
+                                            </div>
+                                        </div>
+                                        <div class="filter-item services">
+                                            <ul class="list">
+                                                <li>
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox5">
+                                                    <label for="smallCheckbox5">Doorman</label>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox6">
+                                                    <label for="smallCheckbox6">Elevator</label>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox7">
+                                                    <label for="smallCheckbox7">Laundry</label>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox8">
+                                                    <label for="smallCheckbox8">Roof Deck</label>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox9">
+                                                    <label for="smallCheckbox9">No Fee</label>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox10">
+                                                    <label for="smallCheckbox10">Pet Allowed</label>
+                                                </li>
+                                                <!-- !!! -->
+                                                <!-- for hide some checkbox -->
+                                                <li style="display: none">
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox25">
+                                                    <label for="smallCheckbox25">Doorman</label>
+                                                </li>
+                                                <li style="display: none">
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox26">
+                                                    <label for="smallCheckbox26">Elevator</label>
+                                                </li>
+                                                <li style="display: none">
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox27">
+                                                    <label for="smallCheckbox27">Laundry</label>
+                                                </li>
+                                                <li style="display: none">
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox28">
+                                                    <label for="smallCheckbox28">Roof Deck</label>
+                                                </li>
+                                                <li style="display: none">
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox29">
+                                                    <label for="smallCheckbox29">Parking</label>
+                                                </li>
+                                                <li style="display: none">
+                                                    <input type="checkbox" class="small-checkbox" id="smallCheckbox210">
+                                                    <label for="smallCheckbox210">Pet Allowed</label>
+                                                </li>
+                                            </ul>
+                                            <span class="more-btn">
+                                                <span>More filters</span>
+                                            </span>
+                                        </div>
+                                        <button class="btn">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWANI0FaGOBMz69wg5iZjzKrHbmUl9aqA"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

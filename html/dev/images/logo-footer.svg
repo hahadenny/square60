@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="41px" viewBox="0 0 200 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-250.000000, -34.000000)">
+            <g id="Group-4" transform="translate(250.000000, 34.000000)">
+                <text id="Property-to-rent-and" font-family="OpenSans, Open Sans" font-size="13" font-weight="normal" fill="#282828">
+                    <tspan x="54" y="37">Property to rent and sell</tspan>
+                </text>
+                <g id="Logo-Copy">
+                    <rect id="Rectangle-2" fill="#176583" x="0" y="0" width="38.8430147" height="40.9146421" rx="3.3663946"></rect>
+                    <path d="M4.2955184,0 L34.5474963,4.4408921e-16 C36.4067047,1.02558167e-16 37.9138909,1.5071862 37.9138909,3.3663946 L37.9138909,37.5482475 C37.9138909,39.4074559 36.4067047,40.9146421 34.5474963,40.9146421 L4.2955184,40.9146421 C2.43630999,40.9146421 0.929123792,39.4074559 0.929123792,37.5482475 L0.929123792,3.3663946 C0.929123792,1.5071862 2.43630999,2.11788788e-15 4.2955184,1.77635684e-15 Z" id="Rectangle-2-Copy" fill="#FFFFFF"></path>
+                    <text id="S" font-family="Didot-Bold, Didot" font-size="32.3173863" font-weight="bold" fill="#176583">
+                        <tspan x="9.06337009" y="31">S</tspan>
+                    </text>
+                </g>
+                <text id="Square60.com" font-family="OpenSans-Semibold, Open Sans" font-size="14.1473676" font-weight="500" letter-spacing="0.67368417" fill="#282828">
+                    <tspan x="54" y="15">Square60.co</tspan>
+                    <tspan x="144.844074" y="15">m</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

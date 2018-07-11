@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="337px" height="113px" viewBox="0 0 337 113" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Production" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mainpage_10" transform="translate(-411.000000, -83.000000)">
+            <g id="Logo" transform="translate(411.000000, 83.000000)">
+                <g id="Group">
+                    <g id="Logo-Copy">
+                        <rect id="Rectangle-2" fill="#176583" x="0" y="0" width="107.078414" height="112.789263" rx="9.28012921"></rect>
+                        <path d="M11.8414418,0 L95.2369721,0 C100.362246,-1.00458128e-14 104.517101,4.15485537 104.517101,9.28012921 L104.517101,103.509133 C104.517101,108.634407 100.362246,112.789263 95.2369721,112.789263 L11.8414418,112.789263 C6.71616794,112.789263 2.56131258,108.634407 2.56131258,103.509133 L2.56131258,9.28012921 C2.56131258,4.15485537 6.71616794,-8.3485931e-16 11.8414418,-1.77635684e-15 Z" id="Rectangle-2-Copy" fill="#FFFFFF"></path>
+                        <text id="S" font-family="Didot-Bold, Didot" font-size="89.0892351" font-weight="bold" fill="#176583">
+                            <tspan x="24.9849632" y="86">S</tspan>
+                        </text>
+                    </g>
+                    <text id="Square60" font-family="OpenSans-Semibold, Open Sans" font-size="38.9376074" font-weight="500" letter-spacing="1.69000019" fill="#282828">
+                        <tspan x="151.119839" y="68.7696051">Square60</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

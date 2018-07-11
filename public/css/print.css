@@ -1,0 +1,8 @@
+header nav, footer, #filters, .breadcrumb, .reload, #searches {
+    display: none;
+}
+
+#top-search{
+    margin-top: 0;
+}
+

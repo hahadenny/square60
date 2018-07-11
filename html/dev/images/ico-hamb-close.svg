@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Production" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu_10_Mobile-" transform="translate(-280.000000, -16.000000)" fill="#1D7293" fill-rule="nonzero">
+            <g id="Close" transform="translate(280.000000, 15.000000)">
+                <path d="M25.5525293,11 L-1.5525293,11 C-2.35192057,11 -3,11.671526 -3,12.5 C-3,13.328474 -2.35192057,14 -1.5525293,14 L25.5525293,14 C26.3519906,14 27,13.328474 27,12.5 C27,11.6715985 26.3519906,11 25.5525293,11 Z" id="Shape" transform="translate(12.000000, 12.500000) rotate(-315.000000) translate(-12.000000, -12.500000) "></path>
+                <path d="M25.5525293,11 L-1.5525293,11 C-2.35192057,11 -3,11.671526 -3,12.5 C-3,13.328474 -2.35192057,14 -1.5525293,14 L25.5525293,14 C26.3519906,14 27,13.328474 27,12.5 C27,11.6715985 26.3519906,11 25.5525293,11 Z" id="Shape-Copy" transform="translate(12.000000, 12.500000) rotate(-225.000000) translate(-12.000000, -12.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
